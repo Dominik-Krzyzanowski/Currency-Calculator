@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header__title">Chytrusek</h1>
+    </header>
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Twój kalkulator walutowy</legend>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Kwota w PLN: <span class="form__labelText--asterisk">*</span>
+                    </span>
+                    <input class="form__input js-amountPLN" title="Wpisz kwote, którą chesz przeliczyć" name="value"
+                        type="number" min="0" placeholder="Wpisz kwotę w zł" step="0.01" required> ZŁ
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Wybierz walutę:
+                    </span>
+                    <select class="form__select js-currencySelection" name="currency"
+                        title="Wybierz walutę, na którą chcesz dokonać przeliczenia">
+                        <option class="form__option" value="CHF">CHF - Frank Swajcarski</option>
+                        <option class="form__option" value="EUR">EUR - Euro</option>
+                        <option class="form__option" value="GBP">GBP - Funt brytyjski</option>
+                        <option class="form__option" value="USD">USD - Dolar amerykański</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Kwota po przeliczeniu:
+                    </span>
+                    <input class="form__input form__input--readonly js-result" name="value" readonly
+                        title="Tutaj zostanie wyświetlony wynik przeliczenia">
+                </label>
+            </p>
+            <p>
+                <span class="form__labelText form__labelText--italic"><span class="form__labelText--asterisk">*</span> -
+                    pole wymagane<br>
+                    Obliczenie wykorzystuje kurs z dna 05.11.2022.
+                </span>
+            </p>
+        </fieldset>
+        <button class="form__button" title="Kliknij, aby przeliczyć">Przelicz</button>
+    </form>
+    <footer class="footer">
+        © All copyrights reserved
+    </footer>
+</body>
+
+</html>
