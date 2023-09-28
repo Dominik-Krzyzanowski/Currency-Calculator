@@ -10,6 +10,7 @@ It is vert simple currency calculator.
 2. Select the currency into which you want to exchange money. 
 3. Press the button "Przelicz".
 <img src="images/readme.gif" alt="howToUse" width="834"/>
+
 ## 🛠 Technologies
 - HTML, CSS, BEM
 - Java Script, ES 6+ features
