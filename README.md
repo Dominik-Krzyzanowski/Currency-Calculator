@@ -1,5 +1,4 @@
 # Dominik Krzyżanowski
-![Dominik](images/domino.png)
 
 ## 💰 Currency-Calculator
 Do not forget to visit my website 👉 [*Currency-Calculator*](https://dominik-krzyzanowski.github.io/Currency-Calculator/) 👈
