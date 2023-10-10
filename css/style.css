@@ -7,9 +7,9 @@ html {
 }
 
 .body {
-    margin: 15% auto;
+    margin: 100px auto;
     padding: 20px;
-    min-height: 500px;
+    min-height: 100vh;
     max-width: 500px;
     background-image: url("https://www.tellermate.com/us/wp-content/uploads/sites/8/2020/05/Cash-US-1024x512.jpg");
     background-size: cover;
@@ -76,6 +76,7 @@ html {
 }
 
 .form__button {
+    cursor: pointer;
     display: block;
     margin: 20px auto;
     padding: 10px;
@@ -97,7 +98,7 @@ html {
 }
 
 .footer {
-    margin: 100px auto;
+    margin: 55% auto;
     padding: 10px;
     width: 50%;
     background-color: #000;
