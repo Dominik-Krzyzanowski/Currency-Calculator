@@ -48,11 +48,6 @@ html {
     width: 200px;
 }
 
-.form__labelText--asterisk {
-    color: #dc143c;
-    font-size: 20px;
-}
-
 .form__labelText--italic {
     display: inline;
     text-align: justify;
